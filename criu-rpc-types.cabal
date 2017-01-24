@@ -13,7 +13,7 @@ author:              wayofthepie
 maintainer:          wayofthepie@gmail.com
 build-type:          Custom
 extra-source-files:  src/criu/rpc.proto
-cabal-version:       >=1.23
+cabal-version:       >=1.24
 homepage:            https://github.com/wayofthepie/haskell-criu-rpc-types
 bug-reports:         https://github.com/wayofthepie/haskell-criu-rpc-types/issues
 source-repository head
@@ -37,3 +37,5 @@ library
     , proto-lens-protoc >= 0.1.0.4 && < 0.1.1.0
   hs-source-dirs:      src
   default-language:    Haskell2010
+  pkgconfig-depends:
+    protobuf
