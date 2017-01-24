@@ -21,3 +21,6 @@ cabal.project.local
 
 # vim
 *.sw*
+
+# Other
+result
