@@ -1,7 +1,7 @@
 
 # Haskell CRIU RPC Types and Lenses
 [![Hackage](https://img.shields.io/badge/Hackage-0.0.0.2-orange.svg)](https://hackage.haskell.org/package/criu-rpc-types)
-[![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Types and lenses for the CRIU RPC API generated using [proto-lens](https://github.com/google/proto-lens).
 
